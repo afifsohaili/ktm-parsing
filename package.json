@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": {},
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "pdf2json": "^1.1.7",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "standard": "^9.0.0"
+  }
 }
