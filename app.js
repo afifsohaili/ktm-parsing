@@ -16,8 +16,8 @@ parser.on('pdfParser_dataReady', function (pdfData) {
   // console.log(parseSchedule(match[1]))
 })
 
-parser.loadPDF('./batu-caves.pdf')
-parser.loadPDF('./klang.pdf')
+parser.loadPDF('./tmp/batu-caves.pdf')
+parser.loadPDF('./tmp/klang.pdf')
 
 function removeHeadings (document) {
   return document.slice(/NO.+TREN.+NUMBER/.exec(document).index, -1)
