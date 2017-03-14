@@ -1,6 +1,6 @@
 {
-  "name": "ktm",
-  "version": "1.0.0",
+  "name": "ktm-parser",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": {},
   "license": "MIT",
@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "standard": "^9.0.0"
-  }
+  },
+  "files": [
+    "index.js",
+    "ktm-pdf.js"
+  ]
 }
