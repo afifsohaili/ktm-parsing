@@ -1,5 +1,5 @@
 "use strict"
 
-var KtmPdf = require('./ktm-pdf.js')
+var KtmPdf = require('./dist/ktm-pdf.js')
 
 exports.KtmPdf = KtmPdf;
