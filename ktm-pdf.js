@@ -40,9 +40,9 @@ class KtmPdf {
     var _ = require('underscore')
 
     var stationNames = _.compact(
-      _.map(match.match(/[A-Z ./]+\d\d:\d\d/g), (regexInfo) => {
+      _.map(match.match(/[A-Z ./]+\d?\d:\d\d/g), (regexInfo) => {
         if (regexInfo)
-          return regexInfo.slice(0, -5)
+          return regexInfo.slice(0, /\d/.exec(regexInfo).index)
       })
     )
 
